@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#field {
+    background-color: red;
+    width: 720px;
+    height: 720px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 100%;
+    background-color: grey;
+}
+
+.cell {
+    border: 1px solid #966843;
+    width: 90px;
+    height: 90px;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.white:hover {
+    background-color: #d6b279;
+}
+
+.black:hover {
+    background-color: #966843;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+.move,
+.picked {
+    background-color: #8ddc38;
+}
+
+.move:hover,
+.picked:hover {
+    background-color: #66aa1d;
+}
+
+.queen {
+    background-color: rgb(226, 57, 57);
+}
+
+.queen:hover {
+    background-color: rgb(194, 32, 32);
+}
